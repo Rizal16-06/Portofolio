@@ -35,7 +35,7 @@
     font-family: 'Lucida Bright';
 }
 
-@media screen and (max-width:990px) {
+@media (max-width:990px) {
     .navbar img{
         display: none;
     }
