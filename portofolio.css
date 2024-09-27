@@ -64,3 +64,11 @@
         margin-top: 6rem;
     }
 }
+@media screen and (max-width:343px){
+    .navbar img{
+        display: block;
+    }
+    .hero{
+        margin-top: 8rem;
+    }
+}
