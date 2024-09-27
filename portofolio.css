@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.hero{
+    min-height: 60vh;
+    margin-top: 5rem;
+}
+.hero h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero h1{
+    font-family: 'Franky';
+}
+.teks h1{
+    font-family: 'Lucida Bright';
+}
+.main img{
+    height: 30vh;
+}
+.hero_main img{
+    width: 300px;
+}
+.tulisan{
+    width: 700px;
+    height: auto;
+}
+.container_main{
+    width: 100%;
+    height: auto;
+}
+.main H1{
+    font-family: 'Lucida Bright';
+}
+.slide H1{
+    font-family: 'Lucida Bright';
+}
+
+@media (max-width:990px) {
+    .navbar img{
+        display: none;
+    }
+    .profil{
+        display: none;
+    }
+    .gambar img{
+        display: none;
+    }
+    .kiri img{
+        height:50vh;
+    }
+    .hero_main{
+        width: 100%;
+    }
+    .tulisan{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:768px) {
+    .container_main{
+        flex-direction: column;
+    }
+    .hero{
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width:343px){
+    .navbar img{
+        display: block;
+    }
+    .hero{
+        margin-top: 8rem;
+    }
+}
